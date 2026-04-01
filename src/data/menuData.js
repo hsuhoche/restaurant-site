@@ -18,6 +18,16 @@ const menuData = [
       { name: "鹹粿湯", price: 70 }
     ]
   }
+  {
+    id: 3,
+    title: "鐵板",
+    items: [
+      { name: "雞腿排鐵板麵", price: 90 },
+      { name: "豬排鐵板麵", price: 85 },
+      { name: "小雞快鐵板麵", price: 70 },
+      { name: "鐵板麵", price: 60 }
+    ]
+  }
 ];
 
 export default menuData;
