@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  cursor: pointer;
+  background: #8b0000;
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  cursor: pointer;
+  background: #ddd;
+  padding: 8px;
+}
+
+ul {
+  background: white;
+  margin: 0;
+  padding: 10px;
+}
