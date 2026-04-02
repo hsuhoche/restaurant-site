@@ -4,7 +4,8 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <div>
-      <h1>我的餐廳</h1>
+      <h1>黃記粿饌</h1>
+      
       <About />
       <Menu />
     </div>
