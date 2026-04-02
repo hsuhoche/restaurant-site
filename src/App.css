@@ -22,3 +22,18 @@ ul {
   margin: 0;
   padding: 10px;
 }
+
+.background {
+  height: 100vh; /* 滿版 */
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;       /* 填滿 */
+  background-position: center;  /* 置中 */
+  background-repeat: no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  font-size: 2rem;
+}
