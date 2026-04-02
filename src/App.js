@@ -23,9 +23,9 @@ function Home() {
             菜單
           </button>
         </Link>
-        <About />
-        <Time />
       </div>
+      <About />
+      <Time />
     </div>
   );
 }

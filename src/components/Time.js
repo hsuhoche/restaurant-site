@@ -11,11 +11,11 @@ function Time() {
 
       {open && (
         <p>
-          上午7時 ~ 下午2時\n下午4時 ~ 下午7時
+          上午7時 到 下午2時 、 下午4時 到 下午7時
         </p>
       )}
     </div>
   );
 }
 
-export default About;
+export default Time;
