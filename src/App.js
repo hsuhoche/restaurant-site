@@ -1,18 +1,20 @@
-import About from "./components/About";
-import Menu from "./components/Menu";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import MenuPage from './pages/MenuPage';
+/*import About from "./components/About";
+import Menu from "./components/Menu";*/
 import './App.css';
+
 
 function App() {
   return (
-    <div className="main-background">
-      <h1 style={{ color: 'white', textAlign: 'center', paddingTop: '50px' }}>
-        黃記粿饌
-      </h1>
-      <About />
-      <Menu />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu" element={<MenuPage />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
