@@ -14,7 +14,7 @@ function Menu() {
 
   return (
     <div>
-      <h2>菜單</h2>
+      <h2>~MENU~</h2>
 
       {menuData.map(section => (
         <div key={section.id}>

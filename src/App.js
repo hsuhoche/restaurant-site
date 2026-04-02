@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Time from "./components/Time";
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -23,7 +24,7 @@ function Home() {
           </button>
         </Link>
         <About />
-        
+        <Time />
       </div>
     </div>
   );
