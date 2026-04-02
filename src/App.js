@@ -1,5 +1,7 @@
 import About from "./components/About";
 import Time from "./components/Time";
+import Address from "./components/Address";
+import Phone from "./components/Phone";
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -26,6 +28,8 @@ function Home() {
       </div>
       <About />
       <Time />
+      <Address />
+      <Phone />
     </div>
   );
 }
