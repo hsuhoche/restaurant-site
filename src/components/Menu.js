@@ -2,7 +2,15 @@ import { useState } from "react";
 import menuData from "../data/menuData";
 
 function Menu() {
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState([]);
+
+  const toggle = (id) => {
+    if (active.includes(id)) {
+      setActive(active.filter(item => item !== id));
+    } else {
+      setActive([...active, id]);
+    }
+  };
 
   return (
     <div>
@@ -10,11 +18,11 @@ function Menu() {
 
       {menuData.map(section => (
         <div key={section.id}>
-          <h3 onClick={() => setActive(section.id)}>
+          <h3 onClick={() => toggle(section.id)}>
             {section.title}
           </h3>
 
-          {active === section.id && (
+          {active.includes(section.id) && (
             <ul>
               {section.items.map((item, index) => (
                 <li key={index}>
