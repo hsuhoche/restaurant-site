@@ -15,7 +15,7 @@ function Home() {
       </h1>
 
       {/* ⭐ 菜單按鈕 */}
-      <div style={{ textAlign: 'center', marginTop: '30px' }}>
+      <div style={{ textAlign: 'center', marginTop: '300px' }}>
         <Link to="/menu">
           <button style={{
             padding: '10px 20px',
